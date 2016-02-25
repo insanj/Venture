@@ -8,11 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		230AC6331C7E869E0008C571 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 230AC6321C7E869E0008C571 /* main.m */; };
-		230AC6361C7E869E0008C571 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 230AC6351C7E869E0008C571 /* AppDelegate.m */; };
-		230AC6391C7E869E0008C571 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 230AC6381C7E869E0008C571 /* ViewController.m */; };
-		230AC63C1C7E869E0008C571 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 230AC63A1C7E869E0008C571 /* Main.storyboard */; };
+		230AC6361C7E869E0008C571 /* VTRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 230AC6351C7E869E0008C571 /* VTRAppDelegate.m */; };
 		230AC63E1C7E869E0008C571 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 230AC63D1C7E869E0008C571 /* Assets.xcassets */; };
-		230AC6411C7E869E0008C571 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 230AC63F1C7E869E0008C571 /* LaunchScreen.storyboard */; };
+		230AC6411C7E869E0008C571 /* VTRLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 230AC63F1C7E869E0008C571 /* VTRLaunchScreen.storyboard */; };
+		230AC64D1C7FAFFB0008C571 /* VTRTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 230AC64C1C7FAFFB0008C571 /* VTRTabBarController.m */; };
+		230AC6501C7FB06D0008C571 /* VTRFeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 230AC64F1C7FB06D0008C571 /* VTRFeedViewController.m */; };
+		230AC6531C7FB0830008C571 /* VTRNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 230AC6521C7FB0830008C571 /* VTRNavigationController.m */; };
+		230AC6561C7FB0E70008C571 /* VTRThemeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 230AC6551C7FB0E70008C571 /* VTRThemeManager.m */; };
 		62CD52CDCD713BD660D67E46 /* libPods-Venture.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B95DF6FD19E1440EF07E5FCF /* libPods-Venture.a */; };
 /* End PBXBuildFile section */
 
@@ -20,14 +22,19 @@
 		13D844AB891188F21E0AFBD8 /* Pods-Venture.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Venture.release.xcconfig"; path = "Pods/Target Support Files/Pods-Venture/Pods-Venture.release.xcconfig"; sourceTree = "<group>"; };
 		230AC62E1C7E869E0008C571 /* Venture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Venture.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		230AC6321C7E869E0008C571 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		230AC6341C7E869E0008C571 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		230AC6351C7E869E0008C571 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		230AC6371C7E869E0008C571 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		230AC6381C7E869E0008C571 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		230AC63B1C7E869E0008C571 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		230AC6341C7E869E0008C571 /* VTRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VTRAppDelegate.h; sourceTree = "<group>"; };
+		230AC6351C7E869E0008C571 /* VTRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VTRAppDelegate.m; sourceTree = "<group>"; };
 		230AC63D1C7E869E0008C571 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		230AC6401C7E869E0008C571 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		230AC6401C7E869E0008C571 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/VTRLaunchScreen.storyboard; sourceTree = "<group>"; };
 		230AC6421C7E869E0008C571 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		230AC64B1C7FAFFB0008C571 /* VTRTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTRTabBarController.h; sourceTree = "<group>"; };
+		230AC64C1C7FAFFB0008C571 /* VTRTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTRTabBarController.m; sourceTree = "<group>"; };
+		230AC64E1C7FB06D0008C571 /* VTRFeedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTRFeedViewController.h; sourceTree = "<group>"; };
+		230AC64F1C7FB06D0008C571 /* VTRFeedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTRFeedViewController.m; sourceTree = "<group>"; };
+		230AC6511C7FB0830008C571 /* VTRNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTRNavigationController.h; sourceTree = "<group>"; };
+		230AC6521C7FB0830008C571 /* VTRNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTRNavigationController.m; sourceTree = "<group>"; };
+		230AC6541C7FB0E70008C571 /* VTRThemeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTRThemeManager.h; sourceTree = "<group>"; };
+		230AC6551C7FB0E70008C571 /* VTRThemeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTRThemeManager.m; sourceTree = "<group>"; };
 		2992787A84652F7585A204DE /* Pods-Venture.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Venture.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Venture/Pods-Venture.debug.xcconfig"; sourceTree = "<group>"; };
 		B95DF6FD19E1440EF07E5FCF /* libPods-Venture.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Venture.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -65,15 +72,17 @@
 		230AC6301C7E869E0008C571 /* Venture */ = {
 			isa = PBXGroup;
 			children = (
-				230AC6341C7E869E0008C571 /* AppDelegate.h */,
-				230AC6351C7E869E0008C571 /* AppDelegate.m */,
-				230AC6371C7E869E0008C571 /* ViewController.h */,
-				230AC6381C7E869E0008C571 /* ViewController.m */,
-				230AC63A1C7E869E0008C571 /* Main.storyboard */,
-				230AC63D1C7E869E0008C571 /* Assets.xcassets */,
-				230AC63F1C7E869E0008C571 /* LaunchScreen.storyboard */,
-				230AC6421C7E869E0008C571 /* Info.plist */,
 				230AC6311C7E869E0008C571 /* Supporting Files */,
+				230AC6341C7E869E0008C571 /* VTRAppDelegate.h */,
+				230AC6351C7E869E0008C571 /* VTRAppDelegate.m */,
+				230AC6511C7FB0830008C571 /* VTRNavigationController.h */,
+				230AC6521C7FB0830008C571 /* VTRNavigationController.m */,
+				230AC6541C7FB0E70008C571 /* VTRThemeManager.h */,
+				230AC6551C7FB0E70008C571 /* VTRThemeManager.m */,
+				230AC64B1C7FAFFB0008C571 /* VTRTabBarController.h */,
+				230AC64C1C7FAFFB0008C571 /* VTRTabBarController.m */,
+				230AC64E1C7FB06D0008C571 /* VTRFeedViewController.h */,
+				230AC64F1C7FB06D0008C571 /* VTRFeedViewController.m */,
 			);
 			path = Venture;
 			sourceTree = "<group>";
@@ -82,6 +91,9 @@
 			isa = PBXGroup;
 			children = (
 				230AC6321C7E869E0008C571 /* main.m */,
+				230AC63D1C7E869E0008C571 /* Assets.xcassets */,
+				230AC63F1C7E869E0008C571 /* VTRLaunchScreen.storyboard */,
+				230AC6421C7E869E0008C571 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -131,11 +143,13 @@
 		230AC6261C7E869E0008C571 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = VTR;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "Julian Weiss";
 				TargetAttributes = {
 					230AC62D1C7E869E0008C571 = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 24X8MVUSCN;
 					};
 				};
 			};
@@ -162,9 +176,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				230AC6411C7E869E0008C571 /* LaunchScreen.storyboard in Resources */,
+				230AC6411C7E869E0008C571 /* VTRLaunchScreen.storyboard in Resources */,
 				230AC63E1C7E869E0008C571 /* Assets.xcassets in Resources */,
-				230AC63C1C7E869E0008C571 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,8 +221,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				230AC6391C7E869E0008C571 /* ViewController.m in Sources */,
-				230AC6361C7E869E0008C571 /* AppDelegate.m in Sources */,
+				230AC64D1C7FAFFB0008C571 /* VTRTabBarController.m in Sources */,
+				230AC6531C7FB0830008C571 /* VTRNavigationController.m in Sources */,
+				230AC6501C7FB06D0008C571 /* VTRFeedViewController.m in Sources */,
+				230AC6361C7E869E0008C571 /* VTRAppDelegate.m in Sources */,
+				230AC6561C7FB0E70008C571 /* VTRThemeManager.m in Sources */,
 				230AC6331C7E869E0008C571 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -217,20 +233,12 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		230AC63A1C7E869E0008C571 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				230AC63B1C7E869E0008C571 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		230AC63F1C7E869E0008C571 /* LaunchScreen.storyboard */ = {
+		230AC63F1C7E869E0008C571 /* VTRLaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				230AC6401C7E869E0008C571 /* Base */,
 			);
-			name = LaunchScreen.storyboard;
+			name = VTRLaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -321,7 +329,9 @@
 			baseConfigurationReference = 2992787A84652F7585A204DE /* Pods-Venture.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Venture/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.insanj.Venture;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -333,7 +343,9 @@
 			baseConfigurationReference = 13D844AB891188F21E0AFBD8 /* Pods-Venture.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				INFOPLIST_FILE = Venture/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.insanj.Venture;
 				PRODUCT_NAME = "$(TARGET_NAME)";

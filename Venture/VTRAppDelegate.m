@@ -1,22 +1,26 @@
 //
-//  AppDelegate.m
+//  VTRAppDelegate.m
 //  Venture
 //
 //  Created by Julian Weiss on 2/24/16.
 //  Copyright © 2016 Julian Weiss. All rights reserved.
 //
 
-#import "AppDelegate.h"
+#import "VTRAppDelegate.h"
+#import "VTRTabBarController.h"
 
-@interface AppDelegate ()
+@interface VTRAppDelegate ()
 
 @end
 
-@implementation AppDelegate
-
+@implementation VTRAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.rootViewController = [[VTRTabBarController alloc] init];
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

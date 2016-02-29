@@ -1,6 +1,6 @@
 #include "SUBLicenseViewController.xcconfig"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Private" "${PODS_ROOT}/Headers/Private/SUBLicenseViewController" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/AFNetworking" "${PODS_ROOT}/Headers/Public/CWStatusBarNotification" "${PODS_ROOT}/Headers/Public/CompactConstraint" "${PODS_ROOT}/Headers/Public/DateTools" "${PODS_ROOT}/Headers/Public/FLAnimatedImage" "${PODS_ROOT}/Headers/Public/JGProgressHUD" "${PODS_ROOT}/Headers/Public/PINCache" "${PODS_ROOT}/Headers/Public/PINRemoteImage" "${PODS_ROOT}/Headers/Public/SSKeychain" "${PODS_ROOT}/Headers/Public/SUBLicenseViewController" "${PODS_ROOT}/Headers/Public/UIImage+Additions"
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Private" "${PODS_ROOT}/Headers/Private/SUBLicenseViewController" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/AFNetworking" "${PODS_ROOT}/Headers/Public/CWStatusBarNotification" "${PODS_ROOT}/Headers/Public/CompactConstraint" "${PODS_ROOT}/Headers/Public/DateTools" "${PODS_ROOT}/Headers/Public/ECSlidingViewController" "${PODS_ROOT}/Headers/Public/FLAnimatedImage" "${PODS_ROOT}/Headers/Public/JGProgressHUD" "${PODS_ROOT}/Headers/Public/PINCache" "${PODS_ROOT}/Headers/Public/PINRemoteImage" "${PODS_ROOT}/Headers/Public/SSKeychain" "${PODS_ROOT}/Headers/Public/SUBLicenseViewController" "${PODS_ROOT}/Headers/Public/UIImage+Additions"
 OTHER_LDFLAGS = ${SUBLICENSEVIEWCONTROLLER_OTHER_LDFLAGS}
 PODS_ROOT = ${SRCROOT}
 SKIP_INSTALL = YES

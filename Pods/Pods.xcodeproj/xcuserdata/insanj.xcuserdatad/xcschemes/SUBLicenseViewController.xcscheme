@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3B4A419524E5E137B1689AA5"
+               BlueprintIdentifier = "0E79B257B523A6A826A73B1C"
                BuildableName = "libSUBLicenseViewController.a"
                BlueprintName = "SUBLicenseViewController"
                ReferencedContainer = "container:Pods.xcodeproj">

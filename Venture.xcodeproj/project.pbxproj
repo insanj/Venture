@@ -15,6 +15,7 @@
 		230AC6501C7FB06D0008C571 /* VTRFeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 230AC64F1C7FB06D0008C571 /* VTRFeedViewController.m */; };
 		230AC6531C7FB0830008C571 /* VTRNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 230AC6521C7FB0830008C571 /* VTRNavigationController.m */; };
 		230AC6561C7FB0E70008C571 /* VTRThemeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 230AC6551C7FB0E70008C571 /* VTRThemeManager.m */; };
+		2313463A1C84E75400A1EDFA /* VTRSidebarTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 231346391C84E75400A1EDFA /* VTRSidebarTableViewController.m */; };
 		62CD52CDCD713BD660D67E46 /* libPods-Venture.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B95DF6FD19E1440EF07E5FCF /* libPods-Venture.a */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +36,8 @@
 		230AC6521C7FB0830008C571 /* VTRNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTRNavigationController.m; sourceTree = "<group>"; };
 		230AC6541C7FB0E70008C571 /* VTRThemeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTRThemeManager.h; sourceTree = "<group>"; };
 		230AC6551C7FB0E70008C571 /* VTRThemeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTRThemeManager.m; sourceTree = "<group>"; };
+		231346381C84E75400A1EDFA /* VTRSidebarTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTRSidebarTableViewController.h; sourceTree = "<group>"; };
+		231346391C84E75400A1EDFA /* VTRSidebarTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTRSidebarTableViewController.m; sourceTree = "<group>"; };
 		2992787A84652F7585A204DE /* Pods-Venture.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Venture.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Venture/Pods-Venture.debug.xcconfig"; sourceTree = "<group>"; };
 		B95DF6FD19E1440EF07E5FCF /* libPods-Venture.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Venture.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -81,8 +84,8 @@
 				230AC6551C7FB0E70008C571 /* VTRThemeManager.m */,
 				230AC64B1C7FAFFB0008C571 /* VTRTabBarController.h */,
 				230AC64C1C7FAFFB0008C571 /* VTRTabBarController.m */,
-				230AC64E1C7FB06D0008C571 /* VTRFeedViewController.h */,
-				230AC64F1C7FB06D0008C571 /* VTRFeedViewController.m */,
+				2313463B1C84E75700A1EDFA /* Sidebar */,
+				2313463C1C84E75F00A1EDFA /* Main View Controllers */,
 			);
 			path = Venture;
 			sourceTree = "<group>";
@@ -96,6 +99,24 @@
 				230AC6421C7E869E0008C571 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2313463B1C84E75700A1EDFA /* Sidebar */ = {
+			isa = PBXGroup;
+			children = (
+				231346381C84E75400A1EDFA /* VTRSidebarTableViewController.h */,
+				231346391C84E75400A1EDFA /* VTRSidebarTableViewController.m */,
+			);
+			name = Sidebar;
+			sourceTree = "<group>";
+		};
+		2313463C1C84E75F00A1EDFA /* Main View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				230AC64E1C7FB06D0008C571 /* VTRFeedViewController.h */,
+				230AC64F1C7FB06D0008C571 /* VTRFeedViewController.m */,
+			);
+			name = "Main View Controllers";
 			sourceTree = "<group>";
 		};
 		2EBFDA67CE29052699414C02 /* Frameworks */ = {
@@ -223,6 +244,7 @@
 			files = (
 				230AC64D1C7FAFFB0008C571 /* VTRTabBarController.m in Sources */,
 				230AC6531C7FB0830008C571 /* VTRNavigationController.m in Sources */,
+				2313463A1C84E75400A1EDFA /* VTRSidebarTableViewController.m in Sources */,
 				230AC6501C7FB06D0008C571 /* VTRFeedViewController.m in Sources */,
 				230AC6361C7E869E0008C571 /* VTRAppDelegate.m in Sources */,
 				230AC6561C7FB0E70008C571 /* VTRThemeManager.m in Sources */,

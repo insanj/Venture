@@ -18,7 +18,19 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
-    self.window.rootViewController = [[VTRTabBarController alloc] init];
+    
+    _rootSidebarViewController = [[VTRSidebarTableViewController alloc] init];
+    _rootFeedViewController = [[VTRFeedViewController alloc] init];
+    
+    VTRNavigationController *feedNavigationController = [[VTRNavigationController alloc] initWithRootViewController:_rootFeedViewController];
+    
+    _rootSlidingViewController = [ECSlidingViewController slidingWithTopViewController:feedNavigationController];
+    _rootSlidingViewController.underLeftViewController = _rootSidebarViewController;
+    _rootSlidingViewController.anchorLeftRevealAmount = kVentureSidebarRevealAmount;
+    _rootSlidingViewController.topViewAnchoredGesture = ECSlidingViewControllerAnchoredGestureTapping | ECSlidingViewControllerAnchoredGesturePanning;
+    [_rootSlidingViewController.topViewController.view addGestureRecognizer:_rootSlidingViewController.panGesture];
+
+    self.window.rootViewController = _rootSlidingViewController;
     [self.window makeKeyAndVisible];
     
     return YES;

@@ -14,10 +14,18 @@
     self = [super init];
     
     if (self) {
-        self.navigationBar.tintColor = [VTRThemeManager themeTintColor];
+
     }
     
     return self;
+}
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    
+    self.navigationBar.barStyle = UIBarStyleBlack;
+    self.navigationBar.barTintColor = [VTRThemeManager themeTintColor];
+    self.navigationBar.tintColor = [UIColor whiteColor];
 }
 
 @end

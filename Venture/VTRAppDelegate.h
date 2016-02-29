@@ -7,9 +7,18 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ECSlidingViewController.h"
+#import "VTRFeedViewController.h"
+#import "VTRSidebarTableViewController.h"
 
 @interface VTRAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+
+@property (strong, nonatomic) ECSlidingViewController *rootSlidingViewController;
+
+@property (strong, nonatomic) VTRFeedViewController *rootFeedViewController;
+
+@property (strong, nonatomic) VTRSidebarTableViewController *rootSidebarViewController;
 
 @end

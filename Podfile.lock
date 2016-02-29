@@ -17,6 +17,7 @@ PODS:
   - CompactConstraint (0.1.0)
   - CWStatusBarNotification (2.3.4)
   - DateTools (1.7.0)
+  - ECSlidingViewController (2.0.3)
   - FLAnimatedImage (1.0.12)
   - JGProgressHUD (1.3.1)
   - PINCache (2.2.1)
@@ -36,6 +37,7 @@ DEPENDENCIES:
   - CompactConstraint
   - CWStatusBarNotification
   - DateTools
+  - ECSlidingViewController
   - JGProgressHUD
   - PINRemoteImage
   - SSKeychain
@@ -47,6 +49,7 @@ SPEC CHECKSUMS:
   CompactConstraint: 562187c821afcc510536a3df799a16c25bea3d9b
   CWStatusBarNotification: 3fec41edcb0ae3677d9febfcb9632d8bdf52294c
   DateTools: 53288ee8b905fdc75897a1e6b5cc0144b14cba60
+  ECSlidingViewController: 6485c14f23b4487e9946535421ca8f111f86cc53
   FLAnimatedImage: 4a0b56255d9b05f18b6dd7ee06871be5d3b89e31
   JGProgressHUD: 153053a21d81208cb5f659691996bcefce6a9885
   PINCache: ed1f07a85cc6fbf488f8ecc1980b07b49b7b85b5

@@ -26,7 +26,7 @@
     
     _rootSlidingViewController = [ECSlidingViewController slidingWithTopViewController:feedNavigationController];
     _rootSlidingViewController.underLeftViewController = _rootSidebarViewController;
-    _rootSlidingViewController.anchorLeftRevealAmount = kVentureSidebarRevealAmount;
+    _rootSlidingViewController.anchorRightPeekAmount = kVentureSidebarRevealAmount;
     _rootSlidingViewController.topViewAnchoredGesture = ECSlidingViewControllerAnchoredGestureTapping | ECSlidingViewControllerAnchoredGesturePanning;
     [_rootSlidingViewController.topViewController.view addGestureRecognizer:_rootSlidingViewController.panGesture];
 

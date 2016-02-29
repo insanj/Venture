@@ -43,21 +43,31 @@
     return 1;
 }
 
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
+    return UIEdgeInsetsInsetRect(tableView.frame, tableView.contentInset).size.height / 3.0;
+}
+
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     static NSString *sidebarCellIdentifier = @"sidebarCellIdentifier";
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:sidebarCellIdentifier];
     
     if (!cell) {
-        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:sidebarCellIdentifier];
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:sidebarCellIdentifier];
         cell.backgroundColor = cell.contentView.backgroundColor = [UIColor clearColor];
         
         cell.textLabel.textColor = [UIColor whiteColor];
-        cell.textLabel.font = [UIFont systemFontOfSize:24.0 weight:UIFontWeightSemibold];
+        cell.textLabel.font = [UIFont systemFontOfSize:30.0 weight:UIFontWeightMedium];
         
+        cell.detailTextLabel.textColor = [UIColor lightGrayColor];
+        cell.detailTextLabel.font = [UIFont systemFontOfSize:18.0 weight:UIFontWeightRegular];
+        cell.detailTextLabel.numberOfLines = 0;
+
+        cell.tintColor = [UIColor whiteColor];
         cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     }
     
-    cell.textLabel.text = @"Home";
+    cell.textLabel.text = @"🌎  Feed";
+    cell.detailTextLabel.text = @"See nearby classes & opportunities";
     
     return cell;
 }

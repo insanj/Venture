@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-static CGFloat kVentureSidebarRevealAmount = 200.0;
+static CGFloat kVentureSidebarRevealAmount = 100.0;
 
 @interface VTRSidebarTableViewController : UITableViewController
 

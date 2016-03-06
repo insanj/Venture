@@ -19,7 +19,7 @@
 }
 
 + (UIColor *)themeBarTintColor {
-    return nil;
+    return self.themeSecondaryTintColor;
 }
 
 + (UIColor *)themeBackgroundColor {

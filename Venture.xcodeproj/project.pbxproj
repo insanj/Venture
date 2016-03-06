@@ -16,6 +16,7 @@
 		230AC6531C7FB0830008C571 /* VTRNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 230AC6521C7FB0830008C571 /* VTRNavigationController.m */; };
 		230AC6561C7FB0E70008C571 /* VTRThemeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 230AC6551C7FB0E70008C571 /* VTRThemeManager.m */; };
 		2313463A1C84E75400A1EDFA /* VTRSidebarTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 231346391C84E75400A1EDFA /* VTRSidebarTableViewController.m */; };
+		23E61CB41C8BDADF00D83D74 /* VTRFeedTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 23E61CB31C8BDADF00D83D74 /* VTRFeedTableViewCell.m */; };
 		62CD52CDCD713BD660D67E46 /* libPods-Venture.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B95DF6FD19E1440EF07E5FCF /* libPods-Venture.a */; };
 /* End PBXBuildFile section */
 
@@ -38,6 +39,8 @@
 		230AC6551C7FB0E70008C571 /* VTRThemeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTRThemeManager.m; sourceTree = "<group>"; };
 		231346381C84E75400A1EDFA /* VTRSidebarTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTRSidebarTableViewController.h; sourceTree = "<group>"; };
 		231346391C84E75400A1EDFA /* VTRSidebarTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTRSidebarTableViewController.m; sourceTree = "<group>"; };
+		23E61CB21C8BDADF00D83D74 /* VTRFeedTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTRFeedTableViewCell.h; sourceTree = "<group>"; };
+		23E61CB31C8BDADF00D83D74 /* VTRFeedTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTRFeedTableViewCell.m; sourceTree = "<group>"; };
 		2992787A84652F7585A204DE /* Pods-Venture.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Venture.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Venture/Pods-Venture.debug.xcconfig"; sourceTree = "<group>"; };
 		B95DF6FD19E1440EF07E5FCF /* libPods-Venture.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Venture.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -115,6 +118,8 @@
 			children = (
 				230AC64E1C7FB06D0008C571 /* VTRFeedViewController.h */,
 				230AC64F1C7FB06D0008C571 /* VTRFeedViewController.m */,
+				23E61CB21C8BDADF00D83D74 /* VTRFeedTableViewCell.h */,
+				23E61CB31C8BDADF00D83D74 /* VTRFeedTableViewCell.m */,
 			);
 			name = "Main View Controllers";
 			sourceTree = "<group>";
@@ -246,6 +251,7 @@
 				230AC6531C7FB0830008C571 /* VTRNavigationController.m in Sources */,
 				2313463A1C84E75400A1EDFA /* VTRSidebarTableViewController.m in Sources */,
 				230AC6501C7FB06D0008C571 /* VTRFeedViewController.m in Sources */,
+				23E61CB41C8BDADF00D83D74 /* VTRFeedTableViewCell.m in Sources */,
 				230AC6361C7E869E0008C571 /* VTRAppDelegate.m in Sources */,
 				230AC6561C7FB0E70008C571 /* VTRThemeManager.m in Sources */,
 				230AC6331C7E869E0008C571 /* main.m in Sources */,

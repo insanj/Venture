@@ -40,11 +40,11 @@
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return 1;
+    return 3;
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
-    return UIEdgeInsetsInsetRect(tableView.frame, tableView.contentInset).size.height / 3.0;
+    return UIEdgeInsetsInsetRect(tableView.frame, tableView.contentInset).size.height / 3.5;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -66,9 +66,21 @@
         cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     }
     
-    cell.textLabel.text = @"🌎  Feed";
-    cell.detailTextLabel.text = @"See nearby classes\n& opportunities";
+    if (indexPath.row == 0) {
+        cell.textLabel.text = @"🌎  Nearby";
+        cell.detailTextLabel.text = @"Explore local classes\n& opportunities";
+    }
     
+    else if (indexPath.row == 1) {
+        cell.textLabel.text = @"👤  Account";
+        cell.detailTextLabel.text = @"View your profile\n& search for friends";
+    }
+    
+    else {
+        cell.textLabel.text = @"🛠  Settings";
+        cell.detailTextLabel.text = @"More information\n& extra options";
+    }
+
     return cell;
 }
 

@@ -12,4 +12,10 @@
 
 + (UIColor *)themeTintColor;
 
++ (UIColor *)themeSecondaryTintColor;
+
++ (UIColor *)themeBarTintColor;
+
++ (UIColor *)themeBackgroundColor;
+
 @end

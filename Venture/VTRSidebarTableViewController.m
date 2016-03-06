@@ -67,7 +67,7 @@
     }
     
     cell.textLabel.text = @"🌎  Feed";
-    cell.detailTextLabel.text = @"See nearby classes & opportunities";
+    cell.detailTextLabel.text = @"See nearby classes\n& opportunities";
     
     return cell;
 }

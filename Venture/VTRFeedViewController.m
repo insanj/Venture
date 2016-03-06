@@ -8,6 +8,7 @@
 
 #import "VTRFeedViewController.h"
 #import "UIViewController+ECSlidingViewController.h"
+#import "VTRThemeManager.h"
 
 @implementation VTRFeedViewController
 
@@ -27,7 +28,7 @@
     self.title = @"Feed";
     
     self.tableView.rowHeight = 80.0;
-    self.tableView.backgroundColor = [UIColor colorWithWhite:0.9 alpha:1.0];
+    self.tableView.backgroundColor = [VTRThemeManager themeBackgroundColor];
     
     self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"sidebar"] style:UIBarButtonItemStylePlain target:self action:@selector(sidebarBarButtonItemTapped)];
 }

@@ -24,8 +24,8 @@
     [super viewDidLoad];
     
     self.navigationBar.barStyle = UIBarStyleBlack;
-    self.navigationBar.barTintColor = [VTRThemeManager themeTintColor];
-    self.navigationBar.tintColor = [UIColor whiteColor];
+    self.navigationBar.barTintColor = [VTRThemeManager themeBarTintColor];
+    self.navigationBar.tintColor = [VTRThemeManager themeTintColor];
 }
 
 @end

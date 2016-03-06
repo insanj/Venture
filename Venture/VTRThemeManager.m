@@ -11,7 +11,19 @@
 @implementation VTRThemeManager
 
 + (UIColor *)themeTintColor {
-    return [UIColor colorWithRed:0.792 green:0.380 blue:0.161 alpha:1.00];
+    return [UIColor colorWithRed:0.796 green:0.467 blue:0 alpha:1];
+}
+
++ (UIColor *)themeSecondaryTintColor {
+    return [UIColor colorWithRed:0 green:0.196 blue:0.315 alpha:1];
+}
+
++ (UIColor *)themeBarTintColor {
+    return nil;
+}
+
++ (UIColor *)themeBackgroundColor {
+    return [UIColor colorWithWhite:0.9 alpha:1.0];
 }
 
 @end

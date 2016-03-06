@@ -16,11 +16,18 @@
     if (self) {
         _feedNavigationController = [[VTRNavigationController alloc] initWithRootViewController:[[VTRFeedViewController alloc] init]];
         
-        self.tabBar.tintColor = [VTRThemeManager themeTintColor];
         self.viewControllers = @[_feedNavigationController];
     }
     
     return self;
+}
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    
+    self.tabBar.tintColor = [VTRThemeManager themeTintColor];
+    self.tabBar.barStyle = UIBarStyleBlack;
+    self.tabBar.barTintColor = [VTRThemeManager themeBarTintColor];
 }
 
 @end
